@@ -1,0 +1,21 @@
+{
+	"name": "DS_bronze",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Ls_data_lake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "rawdata",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "newprojectdocar",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0279cc8d-0eb1-4af6-b11a-52a07b2256cc",
+		"tenantId": "d9340bc3-6985-48d1-aa41-4a6eccf1c040"
+	}
+}
